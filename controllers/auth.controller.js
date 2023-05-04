@@ -154,6 +154,9 @@ async function login(req, res) {
 
 function logout(req, res) {
   authUtil.destroyUserAuthSession(req);
+
+  req.session.cart = null;
+
   res.redirect("/login");
 }
 

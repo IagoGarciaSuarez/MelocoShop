@@ -11,6 +11,11 @@
   flex-direction: column;
 }
 
+#cart-total #cart-total-fallback {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
 .cart-item {
   display: flex;
   flex-direction: column;
